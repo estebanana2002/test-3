@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Hepta Slab';
+    src: url('fonts/HeptaSlab-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+* {
+    font-family: 'Hepta Slab';
+}
+
+.title-container {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    margin: 5px;
+}
+
+.image-container {
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    img {
+        border-radius: 25px;
+        box-shadow: #1D1D1D 5px 25px 60px;
+        margin-bottom: 30px;
+        width: 70%;
+    }
+}
+
+.text-container {
+    display: block;
+    text-align: justify;
+}
