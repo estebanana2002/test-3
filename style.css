@@ -35,3 +35,38 @@
     display: block;
     text-align: justify;
 }
+
+/* FORM STYLES */
+.form-container {
+    width: 100%;
+}
+.form-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.input-group {
+    padding: 10px;
+}
+input {
+    width: 100%;
+    border: #1D1D1D solid 1px;
+    border-radius: 5px;
+}
+input:hover {
+    border: #2c976e solid 1px;
+    border-radius: 5px;
+}
+.button-container {
+    display: block;
+    text-align: end;
+}
+
+button {
+    padding: 5px;
+    background-color: #1D1D1D;
+    color: antiquewhite;
+    border: #1D1D1D solid 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
