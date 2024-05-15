@@ -70,3 +70,11 @@ button {
     border-radius: 10px;
     margin-top: 5px;
 }
+
+/* FOOTER STYLES */
+footer {
+    background-color: #1D1D1D;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+}
